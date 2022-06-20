@@ -1,0 +1,29 @@
+{
+  "cardInfos": [
+    { "title": "population", "property": "population", "subproperty": "" },
+    { "title": "region", "property": "region", "subproperty": "" },
+    { "title": "capital", "property": "capital", "subproperty": "" }
+  ],
+  "detailsInfos": [
+    [
+      { "title": "native name", "property": "nativeName", "subproperty": "" },
+      { "title": "population", "property": "population", "subproperty": "" },
+      { "title": "region", "property": "region", "subproperty": "" },
+      { "title": "sub region", "property": "subregion", "subproperty": "" },
+      { "title": "capital", "property": "capital", "subproperty": "" }
+    ],
+    [
+      {
+        "title": "top level domain",
+        "property": "topLevelDomain",
+        "subproperty": ""
+      },
+      {
+        "title": "currencies",
+        "property": "currencies",
+        "subproperty": "name"
+      },
+      { "title": "languages", "property": "languages", "subproperty": "name" }
+    ]
+  ]
+}
