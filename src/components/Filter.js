@@ -7,25 +7,21 @@ const Filter = ({ getQuery }) => {
   const [selectedRegion, setSelectedRegion] = useState("");
   const [isOpen, setIsOpen] = useState(false);
 
-  // handle open state change
   const handleOpenChange = () => {
     setIsOpen(!isOpen);
   };
 
-  // handle option change
   const handleOptionChange = (value) => {
     setSelectedRegion(value);
     setIsOpen(false);
     getQuery(`region/${value}`);
   };
 
-  // Close select menu when a user click outside it
   const domNode = useClickOutside(() => {
     setIsOpen(false);
   });
 
   return (
-    // Select menu container
     <div
       ref={domNode}
       className="relative w-48 sm:w-60 lg:w-72 bg-transparent rounded-md shadow-sm font-medium"

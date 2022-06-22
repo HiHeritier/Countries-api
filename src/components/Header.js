@@ -5,7 +5,7 @@ const Header = ({ darkMode, handleDarkModeChange }) => {
     <header className="bg-white text-blue-dark dark:bg-blue-light dark:text-white shadow-sm py-8">
       <div className="container flex justify-between items-center">
         <h1 className="font-bold md:font-extrabold text-lg">
-          <Link to="/">Where in the world?</Link>
+          <Link to="/">Rest Countries API</Link>
         </h1>
         {/* Update dark mode state whenever the user click the toggle button */}
         <button onClick={handleDarkModeChange} className="flex">

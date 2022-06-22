@@ -5,7 +5,6 @@ import CountryInfo from "./CountryInfo";
 import Infos from "../infos.json";
 
 const CountryDetails = () => {
-  // Get country's name from URL
   const { name } = useParams();
   const history = useHistory();
 

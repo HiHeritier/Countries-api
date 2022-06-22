@@ -1,10 +1,8 @@
 const CountryInfo = ({ title, property, subproperty }) => {
-  // formats a number according to the locale
   const formatNumber = (number) => {
     return new Intl.NumberFormat().format(number);
   };
 
-  // return a comma separated list
   const formatListItems = () => {
     return subproperty
       ? property.map((item) => item[subproperty]).join(", ")
